@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Senior Homes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Index.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between">
+            <button class="toph2">SCHEDULE A VISIT</button>
+        </div>
+    </div>
+
+    <nav class="navbar secondnavbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="APORTS Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="background-color: #f9f7f5;">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="color: black !important;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black !important;">COMPANY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black !important;">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black !important;">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="d-flex socialicons">
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('slidder1.JPG');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2>Fully Managed Senior Homes</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire
+                        Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('slidder2.JPG');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2>Fully Managed Senior Homes</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire
+                        Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('slid3.jpg');">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2>Modern Facilities</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire
+                        Now</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enquiryModalLabel">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid py-5 aboutus ">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="image-container sparkle ">
+                    <img src="About Us image-min.JPG" class="img-fluid aboutusimg" alt="Villa Image" loading="lazy">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <div class="content-container imagepara right-to-left animate-div">
+                    <h2>About Sree Senior Homes</h2>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet</li>
+                        <li><i class="fas fa-check-circle"></i> Sed tempor arcu non ligula convallis</li>
+                        <li><i class="fas fa-check-circle"></i> Fusce sodales lacus sollicitudin</li>
+                        <li><i class="fas fa-check-circle"></i> Curabitur efficitur gravida ligula siml is not</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vitae officia explicabo commodi
+                        maiores eaque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="floortop right-to-left animate-div">
+        <h1 >Apartment plans</h1>
+    </div>
+
+    <div class="container mt-5">
+        <div class="buttons text-center mb-4">
+            <a href="#" class="btn active" data-target="slide1">Button1</a>
+            <a href="#" class="btn" data-target="slide2">Button2</a>
+        </div>
+
+        <div id="slide1" class="row slidmenu active" style="border: 1px solid #e0e0e0;">
+            <div class="col-md-4" style="padding-left: 0; padding-right: 0;">
+                <ul class="info-list">
+                    <li>Total area <span>2800 Sq. Ft</span></li>
+                    <li>Floor no. <span>2nd</span></li>
+                    <li>Current status <span>Available</span></li>
+                    <li>No. of rooms <span>04</span></li>
+                    <li>Parking available <span>Yes</span></li>
+                    <li>Price from <span>$4500</span></li>
+                </ul>
+            </div>
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <div class="floor-plan-container">
+                    <img src="floor1.jpg" class="img-fluid floorimage" alt="Floor Plan">
+                </div>
+            </div>
+        </div>
+
+        <div id="slide2" class="row slidmenu" style="border: 1px solid #e0e0e0;">
+            <div class="col-md-4" style="padding-left: 0; padding-right: 0;">
+                <ul class="info-list">
+                    <li>Total area <span>3200 Sq. Ft</span></li>
+                    <li>Floor no. <span>3rd</span></li>
+                    <li>Current status <span>Unavailable</span></li>
+                    <li>No. of rooms <span>05</span></li>
+                    <li>Parking available <span>No</span></li>
+                    <li>Price from <span>$5000</span></li>
+                </ul>
+            </div>
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <div class="floor-plan-container">
+                    <img src="floor2.jpg" class="img-fluid floorimage" alt="Floor Plan">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid mt-5">
+        <h2 style="color: #ceae92;" class="text-center mb-4 right-to-left animate-div">Gallery</h2>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="1.jpg" alt="Image 1"></div>
+            <div class="item"><img src="2.jpg" alt="Image 2"></div>
+            <div class="item"><img src="3.jpg" alt="Image 3"></div>
+            <div class="item"><img src="5.jpg" alt="Image 4"></div>
+            <div class="item"><img src="6.jpg" alt="Image 5"></div>
+            <div class="item"><img src="7.jpg" alt="Image 6"></div>
+            <div class="item"><img src="8.jpg" alt="Image 7"></div>
+            <div class="item"><img src="9.jpg" alt="Image 8"></div>
+            <div class="item"><img src="10.jpg" alt="Image 9"></div>
+            <div class="item"><img src="11.jpg" alt="Image 10"></div>
+            <div class="item"><img src="12.jpg" alt="Image 11"></div>
+            <div class="item"><img src="13.jpg" alt="Image 12"></div>
+            <div class="item"><img src="14.jpg" alt="Image 13"></div>
+            <div class="item"><img src="16.jpg" alt="Image 14"></div>
+            <div class="item"><img src="17.jpg" alt="Image 15"></div>
+            <div class="item"><img src="18.jpg" alt="Image 16"></div>
+            <div class="item"><img src="19.jpg" alt="Image 17"></div>
+            <div class="item"><img src="20.jpg" alt="Image 18"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="Gallery.js"></script>
+
+
+
+
+
+
+    <div class="container-fluid amenities  ">
+        <h2 class="text-center mb-4 right-to-left animate-div">Amenities</h2>
+        <div class="row justify-content-center rowtop">
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="clinic.png" class="card-img-top mx-auto" alt="Icon 1" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h4 class="card-title">Medical Clinic</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="a2.svg" class="card-img-top mx-auto" alt="Icon 2" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">24/7 Security</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="store.png" class="card-img-top mx-auto" alt="Icon 3" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Convenience Store</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="house-keeping.png" class="card-img-top mx-auto" alt="Icon 4" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">House Keeping</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="weight (1).png" class="card-img-top mx-auto" alt="Icon 5" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Gym</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4 rowbottom">
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="a5.svg" class="card-img-top mx-auto" alt="Icon 6" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Library</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="kitchen.png" class="card-img-top mx-auto" alt="Icon 7" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Central Kitchen</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="shuttlecock (1).png" class="card-img-top mx-auto" alt="Icon 8" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Shuttle court</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cultivation.png" class="card-img-top mx-auto" alt="Icon 9" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Garden</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-6 mb-4">
+                <div class="car ca p-3 text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                    <img src="theater (1).png" class="card-img-top mx-auto" alt="Icon 10" style="width: 50px;">
+                    <div class="card-body"><br>
+                        <h5 class="card-title">Auditorium</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap 5 JS and Popper.js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script> -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const buttons = document.querySelectorAll('.buttons .btn');
+            const slides = document.querySelectorAll('.slidmenu');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    buttons.forEach(btn => btn.classList.remove('active'));
+                    slides.forEach(slide => slide.classList.remove('active'));
+
+                    this.classList.add('active');
+                    const target = this.getAttribute('data-target');
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <div class="coins">
+        <div class="row g-0">
+            <div class="col-md-4 features-list">
+                <ul>
+                    <li><span>01</span> Water Storage</li>
+                    <li><span>02</span> Fire Exiting</li>
+                    <li><span>03</span> Solar Systems</li>
+                    <li><span>04</span> Children Playground</li>
+                    <li><span>05</span> Swimming Pool</li>
+                </ul>
+            </div>
+            <div class="col-md-8 features-image">
+                <div class="overlayy  right-to-left animate-div">
+                    <h1>WHY CHOOSE US</h1>
+                    <h2>Senior Community Living</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="animation.js"></script>
+
+
+    <div class="testi">
+        <h1 class="client-reviews-title  right-to-left animate-div">Our Client Reviews</h1>
+
+        <div class="testimonial-container" data-aos="zoom-in">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 1">
+                    <p class="testimonial-text">Pellentesque risus metus, condimentum at cursus sodales, mollis quis
+                        purus. Pellentesque vehicula felis a mauris vulputate tincidunt.</p>
+                    <p class="testimonial-author">Visvan Monee - Web Design</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 2">
+                    <p class="testimonial-text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed
+                        volutpat eleifend interdum. Interdum et malesuada fames ac ante.</p>
+                    <p class="testimonial-author">Jabin Saje - UX Designer</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 3">
+                    <p class="testimonial-text">Aliquam vestibulum urna quam, a efficitur metus pulvinar nec. Cras
+                        efficitur sapien eu ligula sollicitudin, a interdum quam tristique.</p>
+                    <p class="testimonial-author">Maciea Kalli - Front End</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 4">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                        erat a ante.</p>
+                    <p class="testimonial-author">Amanda Ray - Developer</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 5">
+                    <p class="testimonial-text">Quisque ut dolor gravida, placerat libero vel, euismod. Phasellus eu
+                        neque libero.</p>
+                    <p class="testimonial-author">John Doe - Product Manager</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="user-png-33856.png" alt="Person 6">
+                    <p class="testimonial-text">Fusce venenatis vel augue vel maximus. Ut nec ligula quis est maximus
+                        malesuada.</p>
+                    <p class="testimonial-author">Jane Smith - Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="dots-navigation">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+        </div>
+    </div>
+    <script src="user.js"></script>
+
+
+
+
+
+
+
+
+    <div class="container information-section" id="information-section">
+        <div class="row">
+            <div class="col-md-4 information-info">
+                <h2 class="contact right-to-left animate-div">Contact Now</h2>
+                <h1>Get in touch with us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Duis
+                    porta, quam ut finibus ultrices.</p>
+                <div class="information-info-details">
+                    <div class="information-item mb-3">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="information-text">
+                            <p>Have any question?</p>
+                            <p class="highlight">Free +23 (000)–9850</p>
+                        </div>
+                    </div>
+                    <div class="information-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="information-text">
+                            <p>Write email</p>
+                            <p class="highlight">needhelp@company.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 information-form">
+                <form class="inf">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <textarea class="form-control" rows="5" placeholder="Write message"></textarea>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <button type="submit" class="btn btn-primary w-100">Send a message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid footer" id="footer">
+
+        <p class="footer-copyright">Copyright@2024. Sree Senior Homes</p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (removed to avoid conflicts) -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.plugins.min.js"></script>
+
+
+
+</body>
+
+</html>
